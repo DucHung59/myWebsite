@@ -1,0 +1,42 @@
+
+@media (max-width:768px) {
+    .cvInfo {
+        flex-direction: column;
+    }
+
+    h1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 span {
+        display: none;
+    }
+
+    .vertical_bar {
+        display: none;
+    }
+
+    .introduce a {
+        font-size: auto;
+        word-wrap: none;
+    }
+    
+    .myInfo {
+        font-size: 0.9rem;
+    }
+
+    .cvInfo .horizontal_bar {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .content {
+        max-width: 768px;
+    }
+
+    .menu {
+        width: auto;
+    }
+}

@@ -1,0 +1,65 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.btnPrintCV button {
+    padding: 10px 25px;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    width: fit-content;
+    height: 35px;
+    border-radius: 4px;
+    align-items: center;
+    border: none;
+    background: var(--main-color);
+    box-shadow:
+        7px 7px 20px 0px rgba(0,0,0,.1),
+        4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    transition: background ease-in-out .8s;
+}
+
+.btnPrintCV button:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--main-color);
+    box-shadow:  -1px -1px 5px 0px #fff,
+    7px 7px 20px 0px #0003,
+    4px 4px 5px 0px #0002;;
+}
+
+.btnPrintCV button:hover {
+    background: transparent;
+    box-shadow: none;
+}
+
+.btnPrintCV button:hover span {
+    color: #07a3b2;
+}
+
+.btnPrintCV button:hover:after {
+    width: 100%;
+    transition: .8s ease;
+}
+
+
+.btnPrintCV button span{
+    font-weight: 600;
+    display: block;
+    text-transform: uppercase;
+}
+
+.btnPrintCV {
+    margin: 20px auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+

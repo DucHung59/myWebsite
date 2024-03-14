@@ -1,0 +1,135 @@
+
+body {
+    zoom: 1.2;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.introduce {
+    display: flex;
+    justify-content: center;
+}
+
+.introduce a, .introduce span {
+    font-weight: 200;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    transition: transform ease-in-out .3s;
+}
+
+.introduce a:hover {
+    color: #07a3b2;
+    transform: translateY(-6px)
+}
+
+.horizontal_bar {
+    display: block;
+    width: 80%;
+    height: 2px;
+    background: var(--main-color);
+    margin: 0 auto;
+}
+
+.vertical_bar {
+    display: block;
+    width: 2px;
+    height: auto;
+    background: var(--main-color);
+}
+
+.cvInfo .horizontal_bar {
+    display: none;
+}
+
+.selfImg {
+    display: flex;
+    align-items: center;
+}
+.myInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+}
+
+.menu {
+    margin: 0 24px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.menu div {
+    display: flex;
+    background: var(--main-color);
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: auto;
+    align-items: center;
+    border-radius: 10px;
+    transition: transform ease-out .3s
+}
+
+.menu div a {
+    color: white;
+    font-weight: 500;
+    width: 100%;
+    height: 100%;
+}
+
+.menu div:hover {
+    transform: translateX(10px);
+}
+
+.a012 {
+    margin-bottom: 20px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title img {
+    width: 30px;
+}
+
+.title span {
+    display: block;
+    padding-left: 5px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+.project ul div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.project i {
+    font-weight: 350;
+}
+
+.project a:hover {
+    text-decoration: underline solid #07a3b2;
+    color: #07a3b2;
+}
