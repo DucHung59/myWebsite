@@ -26,7 +26,8 @@ a {
 
 .introduce a:hover {
     color: #07a3b2;
-    transform: translateY(-6px)
+    transform: translateY(-6px);
+    text-decoration: none;
 }
 
 .horizontal_bar {
@@ -129,7 +130,7 @@ a {
     font-weight: 350;
 }
 
-.project a:hover {
+a:hover {
     text-decoration: underline solid #07a3b2;
     color: #07a3b2;
 }
